@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Montserrat|Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <div id="home">
+          <div class="container">
+            <div class="nav">
+                <!--Sayumi menu, background-->
+                <ul class="ddmenu">
+                    <li><a href="#home"><img src="images/home.png" width="16px"> HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#subjects">SUBJECTS</a>
+                     <ul class="submenu">
+                      <li><a href="#html">HTML</a></li>
+                      <li><a href="#css">CSS</a></li>
+                      <li><a href="#javascript">JavaScript</a></li>
+                      <li><a href="#python">Python</a></li>
+                      <li><a href="#java">Java</a></li>
+                      <li><a href="#git">Git</a></li>
+                    </li>
+                     </ul>
+                   </ul><!-- end menu -->
+            </div>
+            <div class="title">
+                <h1>- Final Project -</h1>
+            </div>
+          </div> 
+        </div>
+        <div id="about">
+          <div class="container">
+            <h2>About us</h2>
+            <!--Alex-->
+            <div class="about">
+                <img class="photo" src="images/alex.jpg" alt="Alex" />
+                <p><strong>Alex Kayser</strong>: Graduated as System Analyst in 2005.
+                Worked as Java Web Developer between 2004 and 2015. Since 2015 he has actuated as
+                Business Analyst in e-commerce and Mobile IT projects for healthcare companies.
+                </p>
+            </div>
+
+            <!--Chris-->
+            <div class="about">
+                <img class="photo" src="images/chris.jpg" alt="Chris" />
+                <p><strong>Chris Weng</strong>: Studied in eletronic in Tech Univ.<br>
+                    Worked as service engineer in Taiwan.<br>
+                    Like exercising, watching video and travel.
+                </p>
+            </div>
+
+            <!--Sally-->
+            <div class="about">
+                <img class="photo" src="images/sally.png" alt="Sally" />
+                <p><strong>Sally Wakasa</strong>: Love ❤︎ Travel/Food/Nature/Music/Movie.<br>
+                  Worked as sales, administrator, pr/marketing at Tokyo Japan. Studied French literature in Univ.
+                </p>
+            </div>
+
+            <!--Sayumi-->
+            <div class="about">
+                <img class="photo" src="images/sayumi.jpg" alt="Sayumi" />
+                <p><strong>Sayumi Nakamura</strong>: Studied International Law and Business in Univ.
+                Worked as demand/supply planner and logistics at consumer packaging company. Love to travel abroad.
+                </p>
+            </div>
+          </div>
+        </div>
+
+<!-- ============================= -->
+<!--Sally part HTML-->
+<!-- ============================= -->
+<div id="html">
+  <div class="container">
+  <h2><img src="images/html.png" width="30px"> HTML</h2>
+  <div class="container">
+    <div class="example-section">
+      <div class="code section">
+        <pre>
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Titile1&lt;/th&gt;
+            &lt;th&gt;Title2&lt;/th&gt;
+            &lt;th&gt;Title3&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td colspan="2" rowspan="2"&gt;Data1&lt;/td&gt;
+            &lt;td&gt;Data2&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Data3&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td colspan="3"&gt;Data4&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+                  </pre>
+      </div>
+      <div class="img section">
+        <img class="html-img" src="images/html-table.png">
+      </div>
+    </div>
+
+    <hr noshade>
+
+    <div class="example-section">
+      <div class="code section">
+        <pre>
+        &lt;ul&gt;
+           &lt;li&gt;
+              Web Course
+              &lt;ul&gt;
+                 &lt;li&gt;HTML & CSS&lt;/li&gt;
+                 &lt;li&gt;HTML & JS&lt;/li&gt;
+                 &lt;li&gt;React.js&lt;/li&gt;
+                 &lt;li&gt;Node.js&lt;/li&gt;
+              &lt;/ul&gt;
+           &lt;/li&gt;
+        &lt;/ul&gt;
+                </pre>
+      </div>
+      <div class="img section">
+          <img class="html-img2" src="images/html-submenu.png">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ============================= -->
+<!--Sally part CSS-->
+<!-- ============================= -->
+        <div id="css">
+          <div class="container">
+            <h2><img src="images/css.png" width="30px"> CSS</h2>
+            <!--Sally-->
+            <!--Put your code here-->
+
+        
+          <div class="example-section">
+            <div class="code section">
+              <pre>
+        div {
+            width: 400px;
+            height: 100px;
+            background-color: blue;
+            animation-name: alex;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            transition: 4s ease-in-out;
+        }
+        div:hover {
+            position: relative;
+            transform: translate(300px,300px) scale(2,3);
+        }
+        /* Standard syntax */
+        @keyframes alex {
+            0% {background-color: red;}
+            25% {background-color: skyblue;}
+            50% {background-color: gold;}
+            75% {background-color: purple;}
+            100% {background-color: black;}
+        }
+        /* Safari, Opera */
+        @-webkit-keyframes alex {
+            0% {background-color: red;}
+            25% {background-color: skyblue;}
+            50% {background-color: gold;}
+            75% {background-color: purple;}
+            100% {background-color: black;}
+        }
+
+              </pre>
+            </div>
+            <div class="css-movie section">
+                <figure>
+                    <video width="400px" controls>
+                      <source src="video/css-img.mp4" type="video/mp4">
+                    </video>
+                  </figure>
+            </div>
+          </div>
+        
+      </div>
+      </div>
+<!-- ============================= -->
+<!--Sayumi part javascript-->
+<!-- ============================= -->
+        <div id="javascript">
+          <div class="container">
+            <h2><img src="images/javascript.png" width="30px"> Javascript</h2>
+            <!--Sayumi-->
+            <!--Put your code here-->
+          
+          <div class="section_javascript">
+          <div class="javascript_code">
+            <pre>
+            <ul><li>-Internal JavaScript</li> &lt;script&gt;&lt;/script&gt;
+            <li>-External JavaScript</li> &lt;script src="javascript.js"&gt;&lt;/script&gt;
+            </ul>
+    let name = prompt("Put your user name");
+    let workhours = Number(prompt("How many hours did you work in 2 weeks?"));
+    let hourlyrate = Number(prompt("My hourly rate is"));
+
+    var x, y, z, t;
+    x= workhours
+    y= hourlyrate
+    fixedworkhours= 80;
+    overtimerate= 1.5;
+    z= x * y;
+    t= (fixedworkhours * y) + ((x - fixedworkhours) * y * overtimerate);
+
+    if(x <= fixedworkhours && x >0){
+        document.getElementById("output").innerHTML =
+        "User name: " +name + " Your total work hours are " +x +". And "+ " you will get paid $" + z +" in total.";
+    }
+    else if(x > fixedworkhours){
+        document.getElementById("output").innerHTML =
+        "User name: " +name + " Your total work hours are " +x+ ". And "+ " you will get paid $" + t +" in total.";
+    }
+    else {
+        document.getElementById("output").innerHTML =
+        "User name: " +name + " Sorry. Couldn't calcurate your salaly.";
+    }
+            </pre>
+            </div>
+            <div class="javascript_video">
+              <figure>
+                <video width="400px" controls>
+                  <source src="images/javascript.mp4" type="video/mp4">
+                </video>
+              </figure>
+            </div>
+          </div>
+        
+      </div>
+      </div>
+      </div>
+
+<!-- ============================= -->
+<!--Chris part python-->
+<!-- ============================= -->
+        <div id="python">
+          <div class="container">
+            <h2><img src="images/python.png" width="30px"> Python</h2>
+            <!--Chris-->
+            <!--Put your code here-->
+            <p>Python is an interpreted, high-level, general-purpose programming language. It's constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p><br>
+            <pre>print("===================================")</pre>
+            <pre>print("|Hello Everyone, nice to meet you!|")</pre>
+            <pre>print("===================================")</pre>
+            <br>
+            <pre>Name = input("What's your name?")</pre>
+            <pre>print(Name)</pre>
+
+            <pre>totalworkhour=int(input("How long do you work per week?"))</pre>
+            <pre>normalsalary=int(input("How about your salary?"))</pre>
+            <pre>normalworktime=40</pre>
+            <pre>overrate=1.5</pre>
+            <br>
+            <pre>if totalworkhour > normalworktime:</pre>
+            <pre>overtime = totalworkhour - normalworktime</pre>
+            <pre>salary = overtime * overrate * normalsalary + normalsalary * normalworktime</pre>
+            <pre>else:</pre>
+            <pre>overtime = 0;</pre>
+            <pre>salary = normalsalary * totalworkhour</pre>
+            <pre>print("Hi," + Name + ". Your total work hour "+ str(totalworkhour) + "HR" ",over "+ str(overtime) + "HR" ". <br>Your salary is "+ str(salary) + "CAD")</pre>
+            <br>
+            <pre>print("====================================")</pre>
+            <pre>print("|This program is finished,thank you|")</pre>
+            <pre>print("====================================")</pre>
+            <video id = pythonvideo ></video>
+            <video width = 400 controls>
+                <source src="video/python.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+
+<!-- ============================= -->
+<!--Alex part java-->
+<!-- ============================= -->
+        <div id="java">
+          <div class="container">
+            <h2><img src="images/java.png" width="30px"> Java</h2>
+            <!--Alex-->
+            <p>Java is a object-oriented programming language that compile the code to bite bitecodes.
+              The same bitecode can be executed in diferent OS running on Java Virtual Machine.
+            </p>
+            <p>This code is an example of a Java class that uses a <i>main</i> method:</p>
+            <div class="javacode">
+              <pre>
+    package ca.ciccc;
+
+    import java.util.Scanner; //utilitary class to access the keyboard
+
+    public class TemperatureConv {
+
+      public static void main(String[] args) {
+
+        System.out.println("=========================================");
+        System.out.println("|    TEMPERATURE CONVERSION             |");
+        System.out.println("=========================================");
+
+        int op = -1;
+        Scanner input = new Scanner(System.in);
+
+        while (op != 0) {
+          System.out.println("Choose one option:");
+          System.out.println("1 - Celcius to Fahrenheit");
+          System.out.println("2 - Fahrenheit to Celcius");
+          System.out.println("0 - to exit");
+          System.out.println("\n");
+
+          op = input.nextInt();
+
+          if (op == 1) {
+            // Celcius to Farenheit
+            System.out.println("Ok, Celcius to Fahrenheit...");
+
+            System.out.println("Please, what is the temperature in Celcius?");
+            int c = input.nextInt();
+
+            if (c < 0 || c > 100) {
+              System.out.println("Try another number");
+              continue;
+            }
+            // calculate fahrenheit from celcius
+            double f = (c * 9 / 5) + 32;
+
+            System.out.println(c + " in Celcius is " + f + " in Fahrenheit.");
+            System.out.println("Next...");
+
+          } else if (op == 2) {
+            // Fharenheit to Celcius
+            System.out.println("Ok, Fahrenheit to Celcius...");
+
+            System.out.println("Please, what is the temperature in Fahrenheit?");
+            int f = input.nextInt();
+
+            if (f < 32 || f > 212) {
+              System.out.println("Try another number");
+              continue;
+            }
+            // calculate celcius from fahrenheit
+            double c = (f - 32) * 5 / 9;
+
+            System.out.println(f + " in Fahrenheit is " + c + " in Celcius.");
+            System.out.println("Next...");
+          }
+        } // end of while loop
+        input.close(); // closing the scanner input
+        System.out.println("=========================================");
+        System.out.println("|    Thank you, bye!!!                  |");
+        System.out.println("=========================================");
+      }
+    }
+              </pre>
+            </div>
+            <br>
+
+            <div class="javacode">
+              <p>This code executing:</p>
+              <img src="images/javatemperature.gif" alt="java executing"/>
+            </div>
+          </div>
+        </div>
+
+
+<!-- ============================= -->
+<!--Chris part git-->
+<!-- ============================= -->
+        <div id="git">
+          <div class="container">
+            <h2><img src="images/git.png" width="30px"> GIT</h2>
+            <!--Chris-->
+            <p>Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. </p><br>
+            <p>Here is the step below:</p>
+            <div id="gitstep">
+            <pre><p><span>First</span>, use GitHub website to create new repository.</p></pre><br>
+            <pre><p><span>Second</span>, open GitHub desktop and click "current repository"  and  "add" after that choose "clone repository"<br>and choose your path before clone.</p></pre><br>
+            <pre><p><span>Third</span>, put the document which you wanna upload to GitHub into the folder that you clone to your computer.</p></pre><br>
+            <pre><p><span>Final</span>, open GitHub desktop and type in summary and click "commit to the master" after that just choose "push"-->Finished.</p></pre><br>
+            <video id = gitvideo ></video>
+            <video width = 400 controls>
+                <source src="video/git.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        </div>
+
+
+<!-- ============================= -->
+<!--Alex part final-->
+<!-- ============================= -->
+        <div id="final">
+          <div class="container">
+            <!--Alex-->
+            <div id="footer1">
+                <h1>CICCC<br>Pre-WMAD</h1>
+            </div>
+            <div id="footer2">
+                <p>August 2019</p>
+                <p>Instructor: Mr Steve Kim</p>
+                <p>Vancouver BC - Canada</p>
+            </div>
+            <div id="footer3">
+                <blockquote>
+                    <p>It's a long way to the top<br>if you wanna Rock 'n' Roll.</p>
+                    <span class="author"><i>AC/DC</i></span>
+                </blockquote>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
