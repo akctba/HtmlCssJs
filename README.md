@@ -1,1 +1,1 @@
-# akctba.github.io
+# HTML, CSS and JavaScript examples
